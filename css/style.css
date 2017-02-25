@@ -1,0 +1,20 @@
+/*
+Styling the button
+*/
+a, a:hover,a:focus,a:visited{
+  text-decoration: none;
+}
+.go-top{
+  position: fixed;
+  bottom: 2em;
+  right: 2em;
+  color: white;
+  background: rgba(0,0,0,0.3);
+  font-size: 12px;
+  padding: 1em;
+  display: none;
+}
+.go-top:hover{    
+  color: #b1b1b1;
+  background: rgba(0,0,0,0.6);
+}
